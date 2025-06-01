@@ -22,17 +22,14 @@ A Python script that automatically converts multiple text files into a single, w
     └── snakes.txt
 
 ## Sample Output PDF
-1. Cats
-[Content from cats.txt]
-
-2. Dogs  
-[Content from dogs.txt]
-
-3. Foxes  
-[Content from foxes.txt]
-
-4. Snakes  
-[Content from snakes.txt]
+- Cats
+  - Content from cats.txt
+- Dogs  
+  - Content from dogs.txt
+- Foxes  
+  - Content from foxes.txt
+- Snakes  
+  - Content from snakes.txt
 
 ## Setup & Usage 🚀
 
@@ -47,10 +44,8 @@ python text_to_pdf.py
 
 ## Get Output
 The script will generate:
-text_to_pdf.pdf in your project root
-
+- text_to_pdf.pdf in your project root
+  
 Each text file becomes a new section with:
-
-Filename as title (e.g., "Cats" from cats.txt)
-
-Content formatted with clean typography
+- Filename as title (e.g., "Cats" from cats.txt)
+- Content formatted with clean typography
